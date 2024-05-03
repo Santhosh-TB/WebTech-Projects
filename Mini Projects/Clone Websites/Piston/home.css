@@ -1,0 +1,246 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=PT+Sans&family=Source+Sans+3&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',arial, sans-serif;
+}
+
+#nav{
+    /* border: 1px solid; */
+    height: 15vh;
+    background-color: #161616;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#headimg{
+    width: 8%;
+    padding-top: 10px;
+}
+
+#context1{
+    /* border: 1px solid; */
+    height: 160vh;
+
+    background-image: url("/html/Assignment/01-12-2023/home/img/home.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#context2{
+    border: 1px solid;
+    height: 385vh;
+    background-color: #161616;
+}
+#c2_1{
+    color: white;
+    text-align: center;
+}
+#para1{
+    font-size: xx-large;
+    padding-top: 70px;
+}
+#button1{
+    border: 1px solid #74B9CB;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #161616;
+    color: #74B9CB;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 40px;
+}
+#button1:hover{
+    background-color: #74B9CB;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+    transition: 0.2s;
+}
+#c2_2{
+    color: white;
+    text-align: center;
+}
+#para2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 120px;
+    font-size: large;
+}
+.box{
+    /* border: 1px solid; */
+    width: 300px;
+    height: 30vh;
+    display: inline-block;
+    margin-top: 50px;
+    padding-top: 10vh;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+.box>dl>dt{
+    font-size: x-large;
+}
+#box2::before{
+    content: "";
+    border: 1px solid white;
+    height: 40vh;
+    position: absolute;
+    top: 0px;
+    left: -4px;
+    border-left-style: none;
+}
+#box2::after{
+    content: "";
+    border: 1px solid white;
+    height: 40vh;
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    border-left-style: none;
+}
+
+#c2_3{
+    color: white;
+    text-align: center;
+    
+}
+#para3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 120px;
+    font-size: large;
+}
+
+
+#c2_3_1{
+    /* border: 1px solid;
+    background-color: red; */
+    width: 75%;
+    margin-left: 190px;
+    margin-top: 50px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 100px 150px 300px 100px 100px;
+    gap: 10px;
+
+    grid-template-areas: 'first second third' 'first second sixth' 'first fifth sixth' 'fourth fifth sixth' 'fourth fifth seventh' 'fourth emp2 seventh' 'emp1 emp2 seventh' ;
+}
+/* .imgbox{
+    border: 1px solid;
+
+} */
+#img1{
+    grid-area: first;
+    background-image: url("/html/Assignment/01-12-2023/home/img/img1.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#img2{
+    grid-area: second;
+    background-image: url("/html/Assignment/01-12-2023/home/img/img2.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#img3{
+    grid-area: third;
+    background-image: url("/html/Assignment/01-12-2023/home/img/img3.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#img4{
+    grid-area: fourth;   
+    background-image: url("/html/Assignment/01-12-2023/home/img/img4.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#img5{
+    grid-area: fifth;  
+    background-image: url("/html/Assignment/01-12-2023/home/img/img5.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+#img6{
+    grid-area: sixth;   
+    background-image: url("/html/Assignment/01-12-2023/home/img/img6.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#img7{
+    grid-area: seventh;
+    background-image: url("/html/Assignment/01-12-2023/home/img/img7.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#emp1{
+    grid-area: emp1;
+    background-color: #161616;
+}
+#emp2{
+    grid-area: emp2;
+    background-color: #161616;
+}
+
+#c2_4{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+#c2_4>h2{
+    font-size: xx-large;
+}
+
+#input{
+    text-align: left;
+    margin-left: 27.7%;
+}
+#form{
+    padding: 10px;
+    width: 60%;
+    border: none;
+    background-color: #161616;
+    border-bottom: 1px solid white;
+    color: white;
+}
+#button2{
+    border: 1px solid #74B9CB;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #161616;
+    color: #74B9CB;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 40px;
+}
+#button2:hover{
+    background-color: #74B9CB;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+    transition: 0.2s;
+}
+
+#c2_5{
+    /* border: 1px solid; */
+    margin-top: 120px;
+    width: 60%;   
+    display: flex;
+    justify-content: space-between;
+    margin-left: 265px;
+}
+
+i:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.5,1.5);
+}
